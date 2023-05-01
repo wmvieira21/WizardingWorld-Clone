@@ -129,7 +129,7 @@ body {
 
 /*main content*/
 main {
-    background-color: #faf6f0;
+    background-color: #fff5e4;
     padding: 0 2rem;
 }
 
@@ -401,4 +401,25 @@ hr {
 
 .close-sidenav {
     display: none;
+}
+
+/*style scrollbar*/
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: #10141b;
+    /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(245, 245, 245);
+    /* color of the scroll thumb */
+    border-radius: 5px;
+    /* roundness of the scroll thumb */
+    border: 1px solid rgb(0, 0, 0);
+    /* creates padding around scroll thumb */
 }
