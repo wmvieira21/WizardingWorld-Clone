@@ -345,3 +345,60 @@ hr {
         color: #cdb4730a;
     }
 }
+
+/*Sidebar mobile*/
+.sidenav-sidebar {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+
+    width: 85%;
+    height: 100vh;
+    background-color: #10141b;
+}
+
+.sidenav-navbar__menu {
+    padding: 1.5rem 2rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.29);
+}
+
+.sidenav-navbar__menu--button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.sidenav-sidebar__items {
+    padding: 1.5rem 2rem;
+}
+
+.sidenav-sidebar__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    list-style: none;
+}
+
+.sidenav-sidebar__links li {
+    padding: 1rem 0;
+}
+
+.sidenav-sidebar__links a {
+    color: whitesmoke;
+    text-decoration: none;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.open-sidenav {
+    display: block;
+}
+
+.close-sidenav {
+    display: none;
+}
