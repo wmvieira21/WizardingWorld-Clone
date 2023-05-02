@@ -364,7 +364,7 @@ hr {
 
 .sidenav-sidebar__transition {
     opacity: 1;
-    transform: translateX(0px); 
+    transform: translateX(0px);
 }
 
 .sidenav-navbar__menu {
@@ -419,7 +419,7 @@ hr {
 
     .main-container,
     .main-signature {
-        width: 60%;
+        width: 50%;
         margin: auto;
     }
 
@@ -451,13 +451,7 @@ hr {
         font-size: 21px;
         line-height: 35px;
     }
-
-
 }
-
-
-
-
 
 /*style scrollbar*/
 
