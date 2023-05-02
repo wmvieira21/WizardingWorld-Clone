@@ -1,6 +1,8 @@
 # WizardingWorld-Clone
 
+Cloned the <strong>https://www.wizardingworld.com/news/harry-potter-quidditch-champions-invites-fans-to-play</strong> (mobile version) webpage with CSS .
 
+Main concepts aplied: Grid and Flexbox. Focused on the mobile version.
 
 Check it out;
 https://wmvieira21.github.io/WizardingWorld-Clone/
