@@ -356,6 +356,15 @@ hr {
     width: 85%;
     height: 100vh;
     background-color: #10141b;
+
+    transform: translateX(-500px);
+    opacity: 0.2;
+    transition: all 400ms ease-out;
+}
+
+.sidenav-sidebar__transition {
+    opacity: 1;
+    transform: translateX(0px); 
 }
 
 .sidenav-navbar__menu {
@@ -391,8 +400,8 @@ hr {
     text-decoration: none;
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 
 .open-sidenav {
@@ -402,6 +411,53 @@ hr {
 .close-sidenav {
     display: none;
 }
+
+@media (min-width: 40rem) {
+    .sidenav-sidebar {
+        width: 19rem;
+    }
+
+    .main-container,
+    .main-signature {
+        width: 60%;
+        margin: auto;
+    }
+
+    .main-navbar__news {
+        background: linear-gradient(to top right, rgba(35, 39, 46, 0.212), #10141b80),
+            url("images/background-big.webp");
+        /* background-position: 90% 10%; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        height: 25rem;
+    }
+
+    .section-video__player {
+        max-width: 100%;
+    }
+
+    .section-one__text {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .section-video__info {
+        font-size: 21px;
+    }
+
+    .article-hp {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+
+}
+
+
+
+
 
 /*style scrollbar*/
 
