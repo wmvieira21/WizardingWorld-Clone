@@ -12,5 +12,7 @@ menuNavBar.addEventListener('click', () => {
 
 menuSideNavBar.addEventListener('click', () => {
     sideNavBar.classList.remove('sidenav-sidebar__transition');
-    sideNavBar.classList.add('close-sidenav');
+    setTimeout(() => {
+        sideNavBar.classList.add('close-sidenav');
+    }, 450);
 });
