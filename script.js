@@ -16,3 +16,14 @@ menuSideNavBar.addEventListener('click', () => {
         sideNavBar.classList.add('close-sidenav');
     }, 450);
 });
+
+
+let mainNav = document.querySelector('.main-navbar');
+
+window.addEventListener('scroll', (e) => {
+    if (window.scrollY > 400) {
+        mainNav.classList.add('active');
+    } else {
+        mainNav.classList.remove('active');
+    }
+});
