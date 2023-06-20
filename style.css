@@ -153,40 +153,24 @@ main section {
     font-family: 'Bluu Next', sans-serif;
     font-size: 6rem;
     font-weight: bold;
-    color: #cdb373;
     line-height: 5rem;
-    position: relative;
-    overflow: hidden;
-    width: 15rem;
-    height: 5rem;
-    /* animation-name: flash;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate-reverse;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both; */
-}
 
-.section-one__first--letter::after {
-    content: "";
-    position: absolute;
-    top: -25%;
-    left: -15%;
-    width: 110px;
-    height: 110px;
-    background-image: linear-gradient(to right, #fff5e4 75%, transparent 25%);
-    transform: rotate(45deg);
-    overflow: hidden;
-    animation: backgroudFade 3s linear infinite normal backwards;
+    color: transparent;
+    background-image: linear-gradient(-45deg, transparent 48%, rgba(255, 255, 255, .8) 50%, transparent 52%), linear-gradient(45deg, #b6a571, #cdb373, #e7da9a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 500% 500%, 100% 100%;
+
+    animation: backgroudFade 2s linear infinite normal backwards;
 }
 
 @keyframes backgroudFade {
     0% {
-        background-position: 0px 0px;
+        background-position: 0 0;
     }
 
     100% {
-        background-position: -110px 0px;
+        background-position: 100% 100%;
     }
 }
 
